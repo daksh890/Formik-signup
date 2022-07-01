@@ -1,0 +1,50 @@
+.header{
+    width:100%;
+    height:4rem;
+    background-color:#F9F9FA;
+    padding:4px;
+}
+.comp{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding-left:1rem;
+    padding-right:1rem;
+}
+.logo{
+    margin-top: 1rem;
+    display:block;
+    align-items:center;
+    justify-content:flex-start;
+}
+.stepper-container{
+    width:30%;
+    justify-content: flex-end;
+    align-items: end;
+}
+.MuiStepper-root{
+    margin-top:0.5rem;
+}
+.MuiStepLabel-root{
+    /* margin-top:0.5rem; */
+    text-align: left;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiStepIcon-root.Mui-active.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root{
+    color:black;
+}
+
+.Mui-p{
+    font-family: 'Roboto';
+    letter-spacing:0.3px;
+    text-transform:uppercase;
+    font-weight: 400;
+    font-size:12px;
+    line-height:10px;
+}
+.Mui-h{
+    letter-spacing:0.1px;
+    font-family: 'Quicksand';
+    font-weight:500;
+    font-size:23px;
+    font-style:normal;
+}
